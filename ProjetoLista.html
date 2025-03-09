@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas a escolha</title>
+    <link rel="stylesheet" href="ProjetoLista.css">
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <h1><u><i>Listas disponíveis</i></u></h1>
+        <p><b>Escolha um índice para entrar em alguma lista:</b></p>
+        <!-- Listas -->
+        <ul class="list">
+            <li id="games">Games🎮índice[0]</li>
+            <li id="livros">Livros📚índice[1]</li>
+            <li id="músicas">Músicas🎵índice[2]</li>
+        </ul>
+    </header>
+    <section>
+        <!-- Rótulo -->
+        <label> 
+            <input type="number" id="txlista" placeholder="Escolha uma das listas" />
+        </label>
+        <!-- Input button -->
+        <label>
+            <input type="button" id="button" value="Buscar lista" onclick="BuscarLista()" />
+            <input type="reset" id="reset" value="Resetar" onclick="Resetar()" />
+        </label>
+    </section>
+    <div id="res"></div>
+    <!-- Rodapé -->
+    <footer></footer>
+    <script src="ProjetoLista.js"></script>
+</body>
+
+</html>
