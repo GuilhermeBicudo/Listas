@@ -4,7 +4,7 @@
 
 <h2 align="left">📋 Detalhes do Projeto</h2>
 
-<p align="left"> 🔁 Utilizei a estrutura lógica de condição aninhada if e else para realizar a verificação dos arrays.<br> 
+<p align="left"> 🔁 Utilizei a estrutura lógica de condição aninhada (if e else) para realizar a verificação dos arrays.<br> 
 💻 Linguagens utilizadas: HTML, CSS e JavaScript.<br> 📖 Projeto pessoal. </p>
 
 <h2 align="left">📸 Imagens do Projeto</h2>
